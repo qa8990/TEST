@@ -42,6 +42,7 @@ $ pip install --upgrade robotframework-datadriver[XLS]
 La Suite de Pruebas esta configurada para que pueda agregar los valores necesarios en los casos de pruebas y escenarios ya definidos en una hoja de calculo. El archivo debe denominarse **RENTALOMX.XLSX**
 Edite la hoja de Calculo ( Excel MS o Google spreadsheet )
 Ubique la hoja denominada **DATOSPRUEBA**, asegurese de no cambiar el nombre del archivo o de la hoja de calculo
+Ubicacion del archivo XLSX, ese debe encontrarse en la carpeta raiz del Proyecto - .**./RENTALOMX/RENTALOMX.XLSX**
 
 La hoja de calculo contiene la siguiente informacion relacionada a la Suite de Pruebas
 1. La primera fila tiene informacion de los argumentos y documentacion de los casos de pruebas
@@ -53,6 +54,15 @@ La hoja de calculo contiene la siguiente informacion relacionada a la Suite de P
 - **${itemInfo}**: Es la informacion a buscar que identifica que el valor a encontrar es correcto tal como Titulos, Marcas, Modelos, Maquinaria, Tipo, Grupos, Categorias
 - **${itemInfo2}**: Es la informacion complementaria dentro de la busqueda para garantizar la busqueda del item
 3. Documentacion
-- **** Test Cases ****: Hace referencia al caso de prueba que se esta realizando
+- *** Test Cases ***: Hace referencia al caso de prueba que se esta realizando
 - **[tags]**: Identifica por medio de un label los casos de pruebas para su verificacion en el reporte del log de ejecucion
 - **[Documentation]**: Informacion adicional al caso de prueba
+
+# NOTA : No realice ningun cambio en los nombres que identifican Argumentos, Etiquetas o Documentacion que se encuentran en la priemra fila del archivo, asi como tampoco elimine la primera fila o cambiar el orden de esta file o eliminar algunos de las columnas ya definidas.
+
+## Ejecutar Suite de Pruebas
+Para la ejecucion de la Suite de Pruebas desde la linea de comando ubicando dentro de la carpeta del Proyecto, ejecute el siguiente comando
+
+```
+$ robot -T -d reports tests/RENTALO.robot
+```
