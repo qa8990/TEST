@@ -34,7 +34,13 @@ $ cd ../RENTALOMX
 ```
 $ pip install robotframework
 $ pip install robotframework-appiumlibrary
-$	pip install --upgrade robotframework-appiumlibrary
-$	pip install --upgrade robotframework-datadriver
-$	pip install --upgrade robotframework-datadriver[XLS]
+$ pip install --upgrade robotframework-appiumlibrary
+$ pip install --upgrade robotframework-datadriver
+$ pip install --upgrade robotframework-datadriver[XLS]
 ```
+## Datos de Prueba
+La Suite de Pruebas esta configurada para que pueda agregar los valores necesarios en los casos de pruebas y escenarios ya definidos.
+Edite la hoja de Calculo ( Excel MS o Google spreadsheet )
+Ubique la hoja denominada DATOSPRUEBA, asegurese de no cambiar el nombre del archivo o de la hoja de calculo
+La hoja de calculo contiene la siguiente informacion relacionada a la Suite de Pruebas
+
