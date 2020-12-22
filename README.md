@@ -58,7 +58,7 @@ La hoja de calculo contiene la siguiente informacion relacionada a la Suite de P
 - **[tags]**: Identifica por medio de un label los casos de pruebas para su verificacion en el reporte del log de ejecucion
 - **[Documentation]**: Informacion adicional al caso de prueba
 
-### NOTA : No realice ningun cambio en los nombres que identifican Argumentos, Etiquetas o Documentacion que se encuentran en la priemra fila del archivo, asi como tampoco elimine la primera fila o cambiar el orden de esta file o eliminar algunos de las columnas ya definidas. 👍 
+#### NOTA : No realice ningun cambio en los nombres que identifican Argumentos, Etiquetas o Documentacion que se encuentran en la primera fila del archivo, asi como tampoco elimine la primera fila, cambiar el orden de esta file o eliminar algunos de las columnas ya definidas. 👍 
 
 ## Ejecutar Suite de Pruebas
 Para la ejecucion de la Suite de Pruebas desde la linea de comando ubicando dentro de la carpeta del Proyecto, ejecute el siguiente comando
@@ -66,3 +66,4 @@ Para la ejecucion de la Suite de Pruebas desde la linea de comando ubicando dent
 ```
 $ robot -T -d reports tests/RENTALO.robot
 ```
+Al culminar la ejecucion de la Suite de Pruebas se estara generando un log de ejecucion que podra visualizarlo accediendo a la carpeta & archivo **../RENTALOMX/Reports/reports.html**
