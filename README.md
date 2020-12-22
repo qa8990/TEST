@@ -8,7 +8,7 @@ Este proyecto es una Suite de pruebas basadas en [Robotframewrok](http://www.rob
 - Ejecutar la Suite de Pruebas
 
 ## Table of contents
-* [Informacion General]
+* [Informacion General](#informacion-general)
 * [Instalacion](#insta)
 * [Datos de Pruebas](#setup)
 * [Ejecucion de la Suite de Pruebas]
