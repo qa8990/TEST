@@ -1,10 +1,10 @@
 # Robot RentaloMX
-Este proyecto es una Suite de pruebas basadas en [Robotframewrok](http://www.robotframework.org/) para realizar pruebas automatizadas E2E a la pagina web [rentalo.com.mx](https://rentalo.com.mx)
+Este proyecto es una Suite de pruebas basadas en [Robotframework](http://www.robotframework.org/) para realizar pruebas automatizadas E2E a la pagina web [rentalo.com.mx](https://rentalo.com.mx)
 
 ## Tabla de Contenido
 * [Informacion General](#informacion-general)
-* [Prerequisitosl](#prerequisitos)
-* [Instalacion](#instacion)
+* [Prerequisitos](#prerequisitos)
+* [Instalacion](#instalacion)
 * [Datos de Pruebas](#datos-de-prueba)
 * [Ejecutar Suite de Pruebas](#ejecutar-suite-de-pruebas)
 
