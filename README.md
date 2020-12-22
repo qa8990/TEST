@@ -41,11 +41,11 @@ $ pip install --upgrade robotframework-datadriver[XLS]
 ## Datos de Prueba
 La Suite de Pruebas esta configurada para que pueda agregar los valores necesarios en los casos de pruebas y escenarios ya definidos en una hoja de calculo. El archivo debe denominarse **RENTALOMX.XLSX**
 Edite la hoja de Calculo ( Excel MS o Google spreadsheet )
-Ubique la hoja denominada DATOSPRUEBA, asegurese de no cambiar el nombre del archivo o de la hoja de calculo
+Ubique la hoja denominada **DATOSPRUEBA**, asegurese de no cambiar el nombre del archivo o de la hoja de calculo
 
 La hoja de calculo contiene la siguiente informacion relacionada a la Suite de Pruebas
 1. La primera fila tiene informacion de los argumentos y documentacion de los casos de pruebas
-2. Argumentos o parametros identificados con {$}
+2. Argumentos o parametros identificados con **{$}**
 - **${scenario}** : Identifica el escenario de pruebas a realizar y si corresponde al Flujo Basico o alternativo
 - **${searchKey}**: Palabra clave de busqueda la cual representa una maquinaria, marca, modelo, grupo o tipo
 - **${searchKey2}**: Palabra clave de busqueda la cual representa una maquinaria, marca, modelo, grupo o tipo, es usada para buscar dentro del catalogo ya filtrado 
@@ -53,6 +53,6 @@ La hoja de calculo contiene la siguiente informacion relacionada a la Suite de P
 - **${itemInfo}**: Es la informacion a buscar que identifica que el valor a encontrar es correcto tal como Titulos, Marcas, Modelos, Maquinaria, Tipo, Grupos, Categorias
 - **${itemInfo2}**: Es la informacion complementaria dentro de la busqueda para garantizar la busqueda del item
 3. Documentacion
-- **** Test Cases *****: Hace referencia al caso de prueba que se esta realizando
+- **** Test Cases ****: Hace referencia al caso de prueba que se esta realizando
 - **[tags]**: Identifica por medio de un label los casos de pruebas para su verificacion en el reporte del log de ejecucion
 - **[Documentation]**: Informacion adicional al caso de prueba
