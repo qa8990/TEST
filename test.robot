@@ -9,9 +9,9 @@ Read Secrets from Env File
     ${db_password}=    Get Env Variable    DB_PASSWORD
     ${secret_token}=    Get Env Variable    SECRET_TOKEN
 
-    Log    API Key: ${api_key}
-    Log    Database Password: ${db_password}
-    Log    Secret Token: ${secret_token}
+    Log to Console    API Key: ${api_key}
+    Log to Console    Database Password: ${db_password}
+    Log to Console    Secret Token: ${secret_token}
 
     Should Not Be Empty    ${api_key}
     Should Not Be Empty    ${db_password}
