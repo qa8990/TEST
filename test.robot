@@ -1,5 +1,5 @@
 *** Settings ***
-Resources   ./resources/common.resources
+Resource    ./resources/common.resources
 
 *** Test Cases ***
 Test case 1
