@@ -1,6 +1,5 @@
 *** Settings ***
-Resource    ../resources/common.robot
-
+Resource    ./resources/common
 *** Test Cases ***
 Test case 1
     [Documentation]    Demonstrates how to read secrets from a .env file.
