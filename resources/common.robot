@@ -1,5 +1,5 @@
 *** Settings ***
-Library    ./EnvLibrary.py    .env
+Library    ../EnvLibrary.py    .env
 Library    Collections
 
 *** Keywords ***
