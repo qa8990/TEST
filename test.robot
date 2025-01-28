@@ -1,5 +1,5 @@
 *** Settings ***
-Resource    ./resources/common.resources
+Resource    ../resources/common.robot
 
 *** Test Cases ***
 Test case 1
